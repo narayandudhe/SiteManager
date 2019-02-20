@@ -1,0 +1,7 @@
+#Wed Feb 20 07:28:44 IST 2019
+base.0=D\:\\SiteManager\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\SiteManager\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

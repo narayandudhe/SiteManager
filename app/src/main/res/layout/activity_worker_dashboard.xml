@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".WorkerDashboard">
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50">
+
+
+                <Button
+                    android:id="@+id/adddetails"
+                    android:layout_width="80in"
+                    android:layout_height="80pt"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/add"
+                    android:freezesText="true"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:text="Add New details"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp"/>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50">
+
+                <Button
+                    android:id="@+id/viewsitedet"
+                    android:layout_width="80in"
+                    android:layout_height="80pt"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:background="@drawable/view"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:text="View Site Details"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp" />
+
+
+
+
+            </RelativeLayout>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"/>
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</RelativeLayout>

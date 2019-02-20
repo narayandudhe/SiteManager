@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sitend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Site Name"
+            android:textColor="#000"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/worker1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Site worker1"
+            android:textColor="#000"
+            android:textSize="27sp" />
+
+
+        <TextView
+            android:id="@+id/worker2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Site worker2"
+            android:textColor="#000"
+            android:textSize="27sp" />
+        <TextView
+            android:id="@+id/limit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Site limit"
+            android:textColor="#000"
+            android:textSize="27sp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
